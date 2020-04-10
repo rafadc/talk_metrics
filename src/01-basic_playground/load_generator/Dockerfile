@@ -1,4 +1,4 @@
-FROM crystallang/crystal:0.34.0 AS builder
+FROM crystallang/crystal:0.34.0-alpine AS builder
 
 RUN mkdir /app
 COPY . /app/
