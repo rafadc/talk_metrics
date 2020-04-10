@@ -2,13 +2,15 @@ version: '3.7'
 
 services:
 
-  ruby_app:
+  server:
     build: server/.
     volumes:
       - ./server/:/app
+    ports:
+      - 3000:3000
 
   prometheus:
-    image: prom/prometheus:v2.1.0
+    image: prom/prometheus:v2.17.1
     volumes:
       - ./prometheus/:/etc/prometheus/
       - prometheus_data:/prometheus
@@ -25,9 +27,13 @@ services:
     depends_on:
       - prometheus
     ports:
-      - 3000:3000
+      - 4000:3000
     volumes:
       - grafana_data:/var/lib/grafana
       - ./grafana/provisioning/:/etc/grafana/provisioning/
     env_file:
       - ./grafana/env
+
+volumes:
+  grafana_data:
+  prometheus_data:
