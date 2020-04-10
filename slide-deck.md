@@ -41,6 +41,20 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
  - Different languages/tools to clarify the boundaries
 
 ---
+
+# Quantiles
+
+---
+
+# 99.99999999999
+
+---
+
+# SPAs are deceitful
+
+- For displaying a single page sometimes we do 1000s of requests
+
+---
 _class: lead
 ---
 
