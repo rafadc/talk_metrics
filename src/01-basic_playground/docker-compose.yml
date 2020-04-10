@@ -9,6 +9,11 @@ services:
     ports:
       - 3000:3000
 
+  load_generator:
+    build: load_generator/.
+    depends_on:
+      - server
+
   prometheus:
     image: prom/prometheus:v2.17.1
     volumes:
