@@ -30,7 +30,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 
 # Means are often deceitful
 
-- We almost never want a mean
+ - We almost never want a mean
 
 ---
 
