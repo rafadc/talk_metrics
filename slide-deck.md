@@ -17,12 +17,13 @@ backgroundImage: url('assets/bg.png')
 # Spend your own money
 
  - Life is a tradeoff
- - My intention is to expose facts so you can choose your own tradeoffs
+ - My intention is to show some techniques so you can choose your own tradeoffs
  - Take conscious decissions
  - Do what makes sense for you from an economical standpoint
 
 ---
 
+![bg right](./assets/mark_twain.jpg)
 # Lies, damn, lies and statistics
 
  - No one is saving us from some math
@@ -44,7 +45,22 @@ backgroundImage: url('assets/bg.png')
 
 ---
 
+# Histogram
+
+---
+
 # Quantiles
+
+q-quantiles are values that partition a finite set of values into q subsets of (nearly) equal sizes.
+
+The only 2-quantile is called the median
+The 100-quantiles are called percentiles → P
+
+---
+
+# Quantile function
+
+The quantile function, associated with a probability distribution of a random variable, specifies the value of the random variable such that the probability of the variable being less than or equal to that value equals the given probability
 
 ---
 
