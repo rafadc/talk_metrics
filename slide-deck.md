@@ -18,6 +18,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
  - Life is a tradeoff
  - My intention is to expose facts so you can choose your own tradeoffs
  - Take conscious decissions
+ - Do what makes sense for you from an economical standpoint
 
 ---
 
@@ -55,8 +56,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 - For displaying a single page sometimes we do 1000s of requests
 
 ---
-_class: lead
----
+<!-- _class: lead -->
 
 # Don't be afraid of production
 
@@ -65,8 +65,8 @@ _class: lead
 -
 
 ---
-
-# If you just call it "instrumentation" everybody will be ok with it.
+![bg contain right](./assets/roll_safe.jpg)
+Just call it "instrumentation" and everybody will be ok with it.
 
 ---
 
