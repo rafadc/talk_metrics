@@ -3,7 +3,7 @@ theme: gaia
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.jpg')
+backgroundImage: url('assets/bg.png')
 ---
 
 # Observing your system
@@ -12,8 +12,9 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
  - There are bugs, lack of resources, hardware failures...
 
 ---
+![bg left](./assets/money_burn.jpg)
 
-# Here be dragons
+# Spend your own money
 
  - Life is a tradeoff
  - My intention is to expose facts so you can choose your own tradeoffs
