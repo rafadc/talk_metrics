@@ -36,12 +36,19 @@ backgroundImage: url('assets/bg.png')
  - We almost never want a mean
 
 ---
+<!-- _class: lead -->
 
 # Demo
 
- - Overkill for a demo
- - Meant for you to download and play
- - Different languages/tools to clarify the boundaries
+A sample measuring system
+Meant for you to download and play
+
+---
+
+# SPAs are deceitful
+
+- For displaying a single page sometimes we do 20 requests
+- Chances of one being slow are high
 
 ---
 
@@ -63,14 +70,15 @@ The 100-quantiles are called percentiles → P
 The quantile function, associated with a probability distribution of a random variable, specifies the value of the random variable such that the probability of the variable being less than or equal to that value equals the given probability
 
 ---
+<!-- _class: lead -->
 
-# 99.99999999999
+# Demo 2
+
+Using quantiles
 
 ---
 
-# SPAs are deceitful
-
-- For displaying a single page sometimes we do 1000s of requests
+# 99.99999999999
 
 ---
 <!-- _class: lead -->
@@ -112,3 +120,15 @@ Just call it "instrumentation" and everybody will be ok with it.
 
 - Answers to the question: **under this load** how my system behaves?
 
+---
+
+<!-- backgroundColor: #000000 -->
+![width:600px center](./assets/famous_last_words.jpg)
+
+# "We should be able to handle twice the load we have now"
+
+---
+
+# Extrapolation of data never works
+
+- Your graphs are only useful for the current situation
