@@ -54,6 +54,9 @@ Meant for you to download and play
 
 # Histogram
 
+- See the different buckets
+- Do not be afraid to split
+
 ---
 
 # Quantiles
@@ -132,3 +135,11 @@ Just call it "instrumentation" and everybody will be ok with it.
 # Extrapolation of data never works
 
 - Your graphs are only useful for the current situation
+- When your system saturates it will crash suddenly
+
+---
+
+# Planning for performance improvements
+
+- Measure first
+- Have a goal in mind
