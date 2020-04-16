@@ -9,10 +9,15 @@ services:
     ports:
       - 3000
 
-  load_generator:
-    build: load_generator/.
+  tsung:
+    image: prima/tsung:1.6
+    ports:
+      - 8091:8091
     depends_on:
       - server
+    volumes:
+      - ./tsung/http_simple.xml:/root/.tsung/tsung.xml
+      - ./tsung/log:/root/.tsung/log
 
   prometheus:
     image: prom/prometheus:v2.17.1
