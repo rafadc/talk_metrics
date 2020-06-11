@@ -40,6 +40,22 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
  - Meant for you to download and play
  - Different languages/tools to clarify the boundaries
 
+
+---
+
+# Prometheus and resilience
+
+ - When you have a performance issue is when you need your metrics the most
+
+---
+
+# Rates
+
+
+---
+
+# Histograms
+
 ---
 
 # Quantiles
@@ -54,8 +70,6 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 
 - For displaying a single page sometimes we do 1000s of requests
 
----
-_class: lead
 ---
 
 # Don't be afraid of production
