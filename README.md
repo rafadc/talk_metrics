@@ -1,8 +1,8 @@
 # Notes from my talk on metrics and instrumentation
 
-This is meant both as notes for the talk and as a [tiny playground](src/01-basic_playground/) so you can play and learn a bit with it.
+This is meant both as notes for the talk and as a [tiny playground](tree/master/src/basic_playground) so you can play and learn a bit with it.
 
-After watching the talk I recommend trying a bit the [playground](src/01-basic_playground/) on your own thinking your own scenarios.
+After watching the talk I recommend trying a bit the [playground](tree/master/src/basic_playground) on your own thinking your own scenarios.
 
 ## Building the slides
 
