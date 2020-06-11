@@ -3,7 +3,7 @@ theme: gaia
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.jpg')
+backgroundImage: url('assets/bg.png')
 ---
 
 # Observing your system
@@ -12,15 +12,18 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
  - There are bugs, lack of resources, hardware failures...
 
 ---
+![bg left](./assets/money_burn.jpg)
 
-# Here be dragons
+# Spend your own money
 
  - Life is a tradeoff
- - My intention is to expose facts so you can choose your own tradeoffs
+ - My intention is to show some techniques so you can choose your own tradeoffs
  - Take conscious decissions
+ - Do what makes sense for you from an economical standpoint
 
 ---
 
+![bg right](./assets/mark_twain.jpg)
 # Lies, damn, lies and statistics
 
  - No one is saving us from some math
@@ -30,15 +33,29 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 
 # Means are often deceitful
 
-- We almost never want a mean
+ - We almost never want a mean
 
 ---
+<!-- _class: lead -->
 
 # Demo
 
- - Overkill for a demo
- - Meant for you to download and play
- - Different languages/tools to clarify the boundaries
+A sample measuring system
+Meant for you to download and play
+
+---
+
+# SPAs are deceitful
+
+- For displaying a single page sometimes we do 20 requests
+- Chances of one being slow are high
+
+---
+
+# Histogram
+
+- See the different buckets
+- Do not be afraid to split
 
 
 ---
@@ -60,17 +77,30 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 
 # Quantiles
 
+q-quantiles are values that partition a finite set of values into q subsets of (nearly) equal sizes.
+
+The only 2-quantile is called the median
+The 100-quantiles are called percentiles → P
+
+---
+
+# Quantile function
+
+The quantile function, associated with a probability distribution of a random variable, specifies the value of the random variable such that the probability of the variable being less than or equal to that value equals the given probability
+
+---
+<!-- _class: lead -->
+
+# Demo 2
+
+Using quantiles
+
 ---
 
 # 99.99999999999
 
 ---
-
-# SPAs are deceitful
-
-- For displaying a single page sometimes we do 1000s of requests
-
----
+<!-- _class: lead -->
 
 # Don't be afraid of production
 
@@ -79,8 +109,8 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 -
 
 ---
-
-# If you just call it "instrumentation" everybody will be ok with it.
+![bg contain right](./assets/roll_safe.jpg)
+Just call it "instrumentation" and everybody will be ok with it.
 
 ---
 
@@ -109,3 +139,23 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 
 - Answers to the question: **under this load** how my system behaves?
 
+---
+
+<!-- backgroundColor: #000000 -->
+![width:600px center](./assets/famous_last_words.jpg)
+
+# "We should be able to handle twice the load we have now"
+
+---
+
+# Extrapolation of data never works
+
+- Your graphs are only useful for the current situation
+- When your system saturates it will crash suddenly
+
+---
+
+# Planning for performance improvements
+
+- Measure first
+- Have a goal in mind
