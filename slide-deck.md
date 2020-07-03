@@ -4,6 +4,7 @@ _class: lead
 paginate: true
 backgroundColor: #fff
 backgroundImage: url('assets/bg.png')
+color: white
 ---
 
 # Observing your system
@@ -45,27 +46,6 @@ Meant for you to download and play
 
 ---
 
-# SPAs are deceitful
-
-- For displaying a single page sometimes we do 20 requests
-- Chances of one being slow are high
-
----
-
-# Histogram
-
-- See the different buckets
-- Do not be afraid to split
-
-
----
-
-# Prometheus and resilience
-
- - When you have a performance issue is when you need your metrics the most
-
----
-
 # Rates
 
 
@@ -97,7 +77,10 @@ Using quantiles
 
 ---
 
-# 99.99999999999
+# 99.9
+
+- For displaying a single page sometimes we do 20 requests
+- Chances of one being slow are high
 
 ---
 <!-- _class: lead -->
@@ -107,6 +90,12 @@ Using quantiles
 - We need to check things in production. That is a fact.
 - In the end that is the thing you want reflect your changes
 -
+---
+
+# Prometheus and resilience
+
+ - When you have a performance issue is when you need your metrics the most
+
 
 ---
 ![bg contain right](./assets/roll_safe.jpg)
