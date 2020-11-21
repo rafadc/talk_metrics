@@ -1,14 +1,9 @@
 # Notes from my talk on metrics and instrumentation
 
-This is meant both as notes for the talk and as a [tiny playground](tree/master/src/basic_playground) so you can play and learn a bit with it.
+The slides of the talk can be found [at Google Slides](https://docs.google.com/presentation/d/16wnLPzS8Djit1RiSOlSF7y0aPBsDdLvWwleOMZXQsP8/edit?usp=sharing).
 
 After watching the talk I recommend trying a bit the [playground](tree/master/src/basic_playground) on your own thinking your own scenarios.
-
-## Building the slides
-
-```make``` with leave all the slides in the ```output``` directory
 
 ## TODO
 
 - [] Split the grafana dashboards for the demos
-- [] Load testing
