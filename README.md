@@ -8,3 +8,7 @@ After watching the talk I recommend trying a bit the [playground](tree/master/sr
 
 ```make``` with leave all the slides in the ```output``` directory
 
+## TODO
+
+- [] Split the grafana dashboards for the demos
+- [] Load testing

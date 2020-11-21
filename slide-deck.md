@@ -89,17 +89,20 @@ Using quantiles
 
 - We need to check things in production. That is a fact.
 - In the end that is the thing you want reflect your changes
--
----
-
-# Prometheus and resilience
-
- - When you have a performance issue is when you need your metrics the most
-
 
 ---
-![bg contain right](./assets/roll_safe.jpg)
-Just call it "instrumentation" and everybody will be ok with it.
+
+# Document your dashboards
+
+---
+
+# SLA, SLO and SLI
+
+---
+
+# Demo 3 
+
+Documenting and linking dashboards
 
 ---
 
@@ -107,7 +110,6 @@ Just call it "instrumentation" and everybody will be ok with it.
 
 - A dashboard answers a question in one circumstance
 - Does it make sense to have a predefined set of questions?
-
 
 ---
 
