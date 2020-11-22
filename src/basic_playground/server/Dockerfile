@@ -11,4 +11,4 @@ RUN bundle install
 
 VOLUME /app
 
-CMD bundle exec rackup -p 3000 -o 0.0.0.0
+CMD bundle exec rackup -p 3000 --host 0.0.0.0
