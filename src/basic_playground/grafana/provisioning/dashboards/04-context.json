@@ -19,6 +19,66 @@
     "links": [],
     "panels": [
       {
+        "datasource": null,
+        "fieldConfig": {
+          "defaults": {
+            "custom": {}
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 4,
+          "w": 24,
+          "x": 0,
+          "y": 0
+        },
+        "id": 6,
+        "options": {
+          "content": "# Clockio.json \n\n### [Github](https://github.com/rafadc/talk_metrics/tree/master/src/basic_playground/server)\n### [Live instance](https://www.youtube.com/watch?v=dQw4w9WgXcQ)\n\nThe core service of our bussiness. This shows the current time in JSON format so our third party integrators can make their customers aware on what moment they are currently living in. ",
+          "mode": "markdown"
+        },
+        "pluginVersion": "7.3.3",
+        "timeFrom": null,
+        "timeShift": null,
+        "title": "",
+        "type": "text"
+      },
+      {
+        "alert": {
+          "alertRuleTags": {},
+          "conditions": [
+            {
+              "evaluator": {
+                "params": [
+                  2
+                ],
+                "type": "gt"
+              },
+              "operator": {
+                "type": "and"
+              },
+              "query": {
+                "params": [
+                  "A",
+                  "5m",
+                  "now"
+                ]
+              },
+              "reducer": {
+                "params": [],
+                "type": "avg"
+              },
+              "type": "query"
+            }
+          ],
+          "executionErrorState": "alerting",
+          "for": "2m",
+          "frequency": "1m",
+          "handler": 1,
+          "name": "HTTP response latency alert",
+          "noDataState": "no_data",
+          "notifications": []
+        },
         "aliasColors": {},
         "bars": false,
         "dashLength": 10,
@@ -36,7 +96,7 @@
           "h": 9,
           "w": 19,
           "x": 0,
-          "y": 0
+          "y": 4
         },
         "hiddenSeries": false,
         "id": 2,
@@ -88,7 +148,15 @@
             "refId": "C"
           }
         ],
-        "thresholds": [],
+        "thresholds": [
+          {
+            "colorMode": "critical",
+            "fill": true,
+            "line": true,
+            "op": "gt",
+            "value": 2
+          }
+        ],
         "timeFrom": null,
         "timeRegions": [],
         "timeShift": null,
@@ -141,11 +209,11 @@
           "h": 9,
           "w": 5,
           "x": 19,
-          "y": 0
+          "y": 4
         },
         "id": 4,
         "options": {
-          "content": "# HTTP Latency\n\nThe full time between a request to /current_date and the response we provide.\n\nSince we don't call external systems we expect not to have a lot of variance in the distribution of values.\n\nWe have a signed SLA of 2s. we signed with Clocks Inc.",
+          "content": "# HTTP Latency\n\nThe full time between a request to /current_date and the response we provide.\n\nSince we don't call external systems we expect not to have a lot of variance in the distribution of values.\n\nWe have a signed SLA of 2s. with Clocks Inc.",
           "mode": "markdown"
         },
         "pluginVersion": "7.3.3",
