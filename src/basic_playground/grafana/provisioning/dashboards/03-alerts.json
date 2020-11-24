@@ -19,6 +19,41 @@
     "links": [],
     "panels": [
       {
+        "alert": {
+          "alertRuleTags": {},
+          "conditions": [
+            {
+              "evaluator": {
+                "params": [
+                  2
+                ],
+                "type": "gt"
+              },
+              "operator": {
+                "type": "and"
+              },
+              "query": {
+                "params": [
+                  "A",
+                  "5m",
+                  "now"
+                ]
+              },
+              "reducer": {
+                "params": [],
+                "type": "last"
+              },
+              "type": "query"
+            }
+          ],
+          "executionErrorState": "alerting",
+          "for": "5m",
+          "frequency": "1m",
+          "handler": 1,
+          "name": "HTTP response latency alert",
+          "noDataState": "no_data",
+          "notifications": []
+        },
         "aliasColors": {},
         "bars": false,
         "dashLength": 10,
@@ -88,7 +123,15 @@
             "refId": "C"
           }
         ],
-        "thresholds": [],
+        "thresholds": [
+          {
+            "colorMode": "critical",
+            "fill": true,
+            "line": true,
+            "op": "gt",
+            "value": 2
+          }
+        ],
         "timeFrom": null,
         "timeRegions": [],
         "timeShift": null,
@@ -149,7 +192,7 @@
       ]
     },
     "timezone": "",
-    "title": "02-Percentiles",
-    "uid": "MJWwC8TMk",
-    "version": 6
+    "title": "03-Alerts",
+    "uid": "Dr2F1gAGk",
+    "version": 1
   }

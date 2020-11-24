@@ -15,7 +15,7 @@
     "editable": true,
     "gnetId": null,
     "graphTooltip": 0,
-    "id": 3,
+    "id": 4,
     "links": [],
     "panels": [
       {
@@ -33,8 +33,8 @@
         "fill": 1,
         "fillGradient": 0,
         "gridPos": {
-          "h": 11,
-          "w": 24,
+          "h": 9,
+          "w": 19,
           "x": 0,
           "y": 0
         },
@@ -128,6 +128,31 @@
           "align": false,
           "alignLevel": null
         }
+      },
+      {
+        "datasource": null,
+        "fieldConfig": {
+          "defaults": {
+            "custom": {}
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 9,
+          "w": 5,
+          "x": 19,
+          "y": 0
+        },
+        "id": 4,
+        "options": {
+          "content": "# HTTP Latency\n\nThe full time between a request to /current_date and the response we provide.\n\nSince we don't call external systems we expect not to have a lot of variance in the distribution of values.\n\nWe have a signed SLA of 2s. we signed with Clocks Inc.",
+          "mode": "markdown"
+        },
+        "pluginVersion": "7.3.3",
+        "timeFrom": null,
+        "timeShift": null,
+        "title": "",
+        "type": "text"
       }
     ],
     "schemaVersion": 26,
@@ -149,7 +174,7 @@
       ]
     },
     "timezone": "",
-    "title": "02-Percentiles",
-    "uid": "MJWwC8TMk",
-    "version": 6
+    "title": "04-Context",
+    "uid": "yLK0JR0Gz",
+    "version": 2
   }
