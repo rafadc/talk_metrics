@@ -1,62 +1,79 @@
 {
-    "annotations": {
-      "list": [
-        {
-          "builtIn": 1,
-          "datasource": "-- Grafana --",
-          "enable": true,
-          "hide": true,
-          "iconColor": "rgba(0, 211, 255, 1)",
-          "name": "Annotations & Alerts",
-          "type": "dashboard"
-        }
-      ]
-    },
-    "editable": true,
-    "gnetId": null,
-    "graphTooltip": 0,
-    "id": null,
-    "links": [],
-    "panels": [
+  "annotations": {
+    "list": [
       {
-        "datasource": null,
-        "fieldConfig": {
-          "defaults": {
-            "custom": {}
-          },
-          "overrides": []
-        },
-        "gridPos": {
-          "h": 11,
-          "w": 24,
-          "x": 0,
-          "y": 0
-        },
-        "id": 2,
-        "options": {
-          "content": "# Example graphs for rafadc's talk on metrics\n\nIn this Grafana you will find some examples for the [talk I prepared on metrics](https://github.com/rafadc/talk_metrics)\n\nThe panels go from simplest to more imformative.\n\nBrought to you with love by [rafadc](https://twitter.com/rafadc).",
-          "mode": "markdown"
-        },
-        "pluginVersion": "7.3.3",
-        "timeFrom": null,
-        "timeShift": null,
-        "title": "",
-        "type": "text"
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
       }
-    ],
-    "schemaVersion": 26,
-    "style": "dark",
-    "tags": [],
-    "templating": {
-      "list": []
+    ]
+  },
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "datasource": null,
+      "fieldConfig": {
+        "defaults": {
+          "custom": {}
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 11,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 2,
+      "options": {
+        "content": "# Example graphs for rafadc's talk on metrics\n\nIn this Grafana you will find some examples for the [talk I prepared on metrics](https://github.com/rafadc/talk_metrics)\n\n## Dashboards\n\n1. [Mean](/d/45gjKLjZk/01-means?orgId=1&refresh=5s): The simplest one and the first. Just a simple mean over our service. \n2. [Percentile](/d/MJWwC8TMk/02-percentiles?orgId=1) : Moving awayfrom means to a value that brings in more information. \n3. [Alerts](/d/Dr2F1gAGk/03-alerts?orgId=1): Defining an alert over the graph provides much more context and specially it brings an obvious answer to the question: \"Is this normal?\".\n4. [Context](/d/yLK0JR0Gz/04-context?orgId=1): In this step we define context around our dashboard so it becomes evident what is trying to do and what can be your next steps.\n\nThe panels go from simplest to more informative.\n\nBrought to you with love by [rafadc](https://twitter.com/rafadc).",
+        "mode": "markdown"
+      },
+      "pluginVersion": "7.3.3",
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "",
+      "type": "text"
     },
-    "time": {
-      "from": "now-6h",
-      "to": "now"
-    },
-    "timepicker": {},
-    "timezone": "",
-    "title": "New dashboard",
-    "uid": null,
-    "version": 0
-  }
+    {
+      "datasource": null,
+      "fieldConfig": {
+        "defaults": {
+          "custom": {}
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 24,
+        "x": 0,
+        "y": 11
+      },
+      "id": 123123,
+      "type": "gettingstarted"
+    }
+  ],
+  "schemaVersion": 26,
+  "style": "dark",
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Index",
+  "uid": null,
+  "version": 0
+}
