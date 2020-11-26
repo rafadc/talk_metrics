@@ -4,6 +4,3 @@ The slides of the talk can be found [at Google Slides](https://docs.google.com/p
 
 After watching the talk I recommend trying a bit the [playground](tree/master/src/basic_playground) on your own thinking your own scenarios.
 
-## TODO
-
-- [] Split the grafana dashboards for the demos
